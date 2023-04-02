@@ -179,6 +179,7 @@ li{
 
 .btn{
   margin: 5% 0% 5% 0%;
+  margin-left: 40%;
 }
 
 .Degree1{
@@ -189,6 +190,26 @@ li{
 .skill{
   width: 70%;
   overflow: hidden;
+}
+
+@media all and (max-width: 500px){
+  .skill{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .skill-name{
+    width: 26%;
+    margin: 0% 1.5% 0% 1.5%;
+  }
+
+  .bar1{
+    width: 55%;
+    background-color: white;
+    height: 1em;
+    margin: 0.8% 1.5% 0% 1.5%;
+  }
+
 }
 
 .skill-name{
@@ -229,7 +250,7 @@ li{
   width: 88%;
   background-color: #333;
   height: 100%;
-}
+} 
 
 .progress4{
   width: 92%;
