@@ -29,6 +29,77 @@ export const Home = () => {
 
                 <div className="skills">
                     <h1>Skills</h1>
+                    <div className="skill1">
+                        <div className="skill-name"><p>Python</p></div>
+                        <div className="bar1">
+                            <div className="progress1"></div>
+                        </div>
+                        <div className="percent">85%</div>
+                    </div>
+
+                    <div className="skill2">
+                        <div className="skill-name"><p>Java</p></div>
+                        <div className="bar1">
+                            <div className="progress2"></div>
+                        </div>
+                        <div className="percent">83%</div>
+                    </div>
+
+                    <div className="skill3">
+                        <div className="skill-name"><p>C#</p></div>
+                        <div className="bar1">
+                            <div className="progress3"></div>
+                        </div>
+                        <div className="percent">88%</div>
+                    </div>
+
+                    <div className="skill4">
+                        <div className="skill-name"><p>HTML5</p></div>
+                        <div className="bar1">
+                            <div className="progress4"></div>
+                        </div>
+                        <div className="percent">92%</div>
+                    </div>
+
+                    <div className="skill5">
+                        <div className="skill-name"><p>CSS3</p></div>
+                        <div className="bar1">
+                            <div className="progress5"></div>
+                        </div>
+                        <div className="percent">89%</div>
+                    </div>
+
+                    <div className="skill6">
+                        <div className="skill-name"><p>JavaScript</p></div>
+                        <div className="bar1">
+                            <div className="progress6"></div>
+                        </div>
+                        <div className="percent">86%</div>
+                    </div>
+
+                    <div className="skill7">
+                        <div className="skill-name"><p>Tableau</p></div>
+                        <div className="bar1">
+                            <div className="progress7"></div>
+                        </div>
+                        <div className="percent">77%</div>
+                    </div>
+
+                    <div className="skill8">
+                        <div className="skill-name"><p>SQL</p></div>
+                        <div className="bar1">
+                            <div className="progress8"></div>
+                        </div>
+                        <div className="percent">82%</div>
+                    </div>
+
+                    <div className="skill9">
+                        <div className="skill-name"><p>R</p></div>
+                        <div className="bar1">
+                            <div className="progress9"></div>
+                        </div>
+                        <div className="percent">76%</div>
+                    </div>
                     
                 </div>
 

@@ -82,7 +82,7 @@ img{
 }
 
 .Job1{
-  padding-top: 43%;
+  padding-top: 0%;
 }
 
 .me1{
@@ -118,6 +118,18 @@ img{
     background-color: #333;
   }
 
+  .portfolio{
+    background-color: #333;
+  }
+
+  .education{
+    background-color: #333;
+  }
+
+  .experience{
+    background-color: #333;
+  }
+
 }
 
 @media all and (max-width: 390px){
@@ -130,12 +142,28 @@ p, h1{
   font-family: 'Roboto Slab', serif;
 }
 
+@media all and (max-width: 441px){
+  .container3{
+    padding-top: 0.5em;
+  }
+}
+
+@media all and (max-width: 340px){
+  .container3{
+    padding-top: 0.5em;
+  }
+
+}
+
 .container1{
-  margin-bottom: 9em;
+  margin-bottom: 1em;
+  overflow: hidden;
 }
 
 .container2{
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  overflow: hidden;
 }
 .container3{
   margin-bottom: 2em;
@@ -151,5 +179,131 @@ li{
 
 .btn{
   margin: 5% 0% 5% 0%;
+}
+
+.Degree1{
+  width: 100%;
+  overflow: hidden;
+}
+
+.skill1{
+  width: 70%;
+  overflow: hidden;
+}
+
+.skill-name{
+  width: 21%;
+  margin: 0% 1.5% 0% 1.5%;
+}
+
+.bar1{
+  width: 60%;
+  background-color: white;
+  height: 1em;
+  margin: 2% 1.5% 0% 1.5%;
+}
+
+.progress1{
+  width: 85%;
+  background-color: #333;
+  height: 100%;
+}
+
+.percent{
+  width: 10%;
+  float: right;
+  margin: 0% 1.5% 0% 1.5%;
+} 
+
+.skill-name, .bar1, .percent{
+  float: left;
+}
+
+.skill2{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress2{
+  width: 83%;
+  background-color: #333;
+  height: 100%;
+}
+
+.skill3{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress3{
+  width: 88%;
+  background-color: #333;
+  height: 100%;
+}
+
+.skill4{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress4{
+  width: 92%;
+  background-color: #333;
+  height: 100%;
+}
+
+.skill5{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress5{
+  width: 89%;
+  background-color: #333;
+  height: 100%;
+}
+
+.skill6{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress6{
+  width: 86%;
+  background-color: #333;
+  height: 100%;
+}
+
+.skill7{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress7{
+  width: 77%;
+  background-color: #333;
+  height: 100%;
+}
+
+.skill8{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress8{
+  width: 82%;
+  background-color: #333;
+  height: 100%;
+}
+
+.skill9{
+  width: 70%;
+  overflow: hidden;
+}
+
+.progress9{
+  width: 76%;
+  background-color: #333;
+  height: 100%;
 }
 
