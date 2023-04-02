@@ -89,6 +89,12 @@ img{
   columns: 2;
 }
 
+@media (max-width: 1000px) {
+  .me1 {
+    columns: 21;
+  }
+}
+
 p, h1{
   font-family: 'Roboto Slab', serif;
 }
