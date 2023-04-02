@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.5f379319.chunk.css",
-  "main.js": "/static/js/main.d6c8218a.chunk.js",
-  "main.js.map": "/static/js/main.d6c8218a.chunk.js.map",
+  "main.css": "/static/css/main.eec0004c.chunk.css",
+  "main.js": "/static/js/main.cd3440b0.chunk.js",
+  "main.js.map": "/static/js/main.cd3440b0.chunk.js.map",
   "static/js/1.e8e3b76c.chunk.js": "/static/js/1.e8e3b76c.chunk.js",
   "static/js/1.e8e3b76c.chunk.js.map": "/static/js/1.e8e3b76c.chunk.js.map",
   "static/css/2.427fe948.chunk.css": "/static/css/2.427fe948.chunk.css",
@@ -15,9 +15,9 @@
   "static/media/swisspro.png": "/static/media/swisspro.dff82f92.png",
   "static/media/Al-Turath.png": "/static/media/Al-Turath.b017941b.png",
   "static/media/construction.png": "/static/media/construction.6c1fb76a.png",
+  "static/css/main.eec0004c.chunk.css.map": "/static/css/main.eec0004c.chunk.css.map",
   "static/css/2.427fe948.chunk.css.map": "/static/css/2.427fe948.chunk.css.map",
-  "static/css/main.5f379319.chunk.css.map": "/static/css/main.5f379319.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.5a4eb6dc8a53a903b184621cad957128.js": "/precache-manifest.5a4eb6dc8a53a903b184621cad957128.js",
+  "precache-manifest.476dace4243845fac2d6cb19fba74556.js": "/precache-manifest.476dace4243845fac2d6cb19fba74556.js",
   "service-worker.js": "/service-worker.js"
 }
