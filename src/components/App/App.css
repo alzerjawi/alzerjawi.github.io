@@ -93,19 +93,13 @@ img{
   .me1 {
     columns: 1;
   }
-}
-
-@media all and (max-width: 400px) {
-  .me1 {
-    columns: 1;
-  }
 
   .main{
     float: none;
     width: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
-    
+    padding-top: 15%;
   }
 
   .side{
@@ -122,6 +116,13 @@ img{
 
   .home{
     background-color: #333;
+  }
+
+}
+
+@media all and (max-width: 390px){
+  .main{
+    padding-top: 15%;
   }
 }
 
