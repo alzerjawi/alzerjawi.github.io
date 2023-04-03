@@ -1,11 +1,18 @@
 .side{
-  width: 28%;
+  width: 24%;
   float: right;
   background-color: #04d9ff;
-  margin: 0% 1% 0% 1%;
+  margin: 0% 3% 0% 3%;
   margin-top: 60px;
-  
 }
+
+p{
+  padding: 5%;
+  line-height: 2;
+  font-size: 17px;
+}
+
+
 
 .component{
   position: fixed;
@@ -17,10 +24,10 @@
 }
 
 .main{
-  width: 68%;
+  width: 64%;
   float: left;
   background-color: #04d9ff;
-  margin: 0% 1% 0% 1%;
+  margin: 0% 3% 0% 3%;
   margin-top: 60px;
 }
 

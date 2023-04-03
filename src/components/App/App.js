@@ -1,14 +1,20 @@
 import './App.css';
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Navbar} from '../Navbar.js';
 import { Home } from '../Home';
 import { Education } from '../Education';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Experience } from '../Experience';
 import { Portfolio } from '../Portfolio';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <Router>
       

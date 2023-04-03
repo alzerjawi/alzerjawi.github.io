@@ -8,8 +8,8 @@ export const Experience = () => {
     return (
         <div className="experience">
             <div className='main'>
-                <h1>Experience</h1>
-                <div className="container1">
+                <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Experience</h1>
+                <div className="container1" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100">
                     <div className="ex1">
                         <img className="logo pic2" src={swiss} alt='UCD logo'/>
 
@@ -22,7 +22,7 @@ export const Experience = () => {
                         <img className="logo" src={alturath} alt='MSU logo'/>
                     </div>
                 </div>
-                <div className="container2">
+                <div className="container2" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
                     <div className="ex1">
                         
                         <p>
@@ -44,39 +44,40 @@ export const Experience = () => {
                 </div>
                 <div className="container3">
                      <div className="Job1">
-                        <h1>Swisspro AG - Electrician Apprentice</h1>
-                        <ul>
+                        <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Swisspro AG - Electrician Apprentice</h1>
+                        <ul data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="100">
                             <li>Helped run wiring, conduit, and other electrical components.
 </li>
                             <li>Assisted with the installation of lighting fixtures, outlets, and switches.</li>
                             <li>Helped troubleshoot and diagnose electrical problems.
 </li>
-                            <li> Learned how to read and interpret blueprints, diagrams, and schematics.</li>
+                            <li>Learned how to read and interpret blueprints, diagrams, and schematics.</li>
                             <li>Observed safety procedures and regulations while working.
 </li>
                         </ul>
                     </div>
                     <div className="Job2">
-                        <h1>Self-employed - Mathematics Tutor</h1>
-                        <ul>
+                        <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Self-employed - Mathematics Tutor</h1>
+                        <ul data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="100">
                             <li>Helped students understand mathematical concepts and principles.</li>
                             <li>Provided one-on-one instruction to students who are struggling with math.</li>
-                            <li> Advised students on international academic programs, including scholarships and grants</li>
-                            <li>Organized international conferences, workshops, and cultural events.</li>
-                            <li>abc</li>
+                            <li>Review and provide feedback on the student's homework, assignments, and exams.</li>
+                            <li>Created customized lesson plans based on the student’s needs and level of understanding.</li>
+                            <li>Assisted students with homework, assignments, and test preparation.</li>
                         </ul>
                     </div>
                     <div className="Job3">
-                        <h1>Al-Turath University College - International Relations Officer</h1>
-                        <ul>
+                        <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Al-Turath University College - International Relations Officer</h1>
+                        <ul data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="100">
                             <li>Facilitated international partnerships and collaborations with other universities and organizations.
 </li>
-                            <li> Coordinated study abroad programs and exchange programs for students and faculty.
+                            <li>Coordinated study abroad programs and exchange programs for students and faculty.
 </li>
-                            <li> Advised students on international academic programs, including scholarships and grants.</li>
-                            <li> Organized international conferences, workshops, and cultural events.
+                            <li>Advised students on international academic programs, including scholarships and grants.</li>
+                            <li>Organized international conferences, workshops, and cultural events.
 </li>
-                            <li>abc</li>
+                            <li>Stayed up-to-date with international education policies and regulations.
+</li>
                         </ul>
                     </div>
                 </div>

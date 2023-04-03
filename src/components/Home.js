@@ -8,10 +8,10 @@ export const Home = () => {
         <div className="home">
             <div className='main'>
                 <div class='para intro'>
-                    <h1>Hello, my name is Hassan Al Zerjawi</h1>
-                    <p>Welcome to my humble Portfolio Website. I am a current MSc Software Engineering student at the University of Westminster. My study mainly focuses on programming and big data. I completed BSc at Metropolitan State University of Denver. Where I completed applied Mathematics as my major and Economics as my minor.</p>
+                    <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Hello, my name is Hassan Al Zerjawi</h1>
+                    <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Welcome to my humble Portfolio Website. I am a current MSc Software Engineering student at the University of Westminster. My study mainly focuses on programming and big data. I completed BSc at Metropolitan State University of Denver. Where I completed applied Mathematics as my major and Economics as my minor.</p>
                 </div>
-                <div className="me">
+                <div className="me" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                     <h1>About Me</h1>
                     <div className="me1">
                         
@@ -25,9 +25,9 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <Link class="btn btn-dark btn-lg" to="/portfolio" role="button">Click for Portfolio</Link>
+                <Link class="btn btn-dark btn-lg" to="/portfolio" role="button" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">Click for Portfolio</Link>
 
-                <div className="skills">
+                <div className="skills" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100">
                     <h1>Skills</h1>
                     <div className="skill">
                         <div className="skill-name"><p>Python</p></div>
