@@ -9,14 +9,16 @@ export const Home = () => {
         <div className="home">
             <div className='main'>
                 <div class='para intro'>
-                    <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Hello, my name is Hassan Al Zerjawi</h1>
-                    <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Welcome to my humble Portfolio Website. I am a current MSc Software Engineering student at the University of Westminster. My study mainly focuses on programming and big data. I completed BSc at Metropolitan State University of Denver. Where I completed applied Mathematics as my major and Economics as my minor.</p>
+                    <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">I'm Hassan, a MSc student at the University of Westminster with a BSc in Applied Mathematics from MSU Denver. I'm currently in the finals phase of my studies, based in Baghdad, Iraq.</h1>
+                    <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">I have a strong foundation in computer science and mathematics, including proficiency in software development, and data analysis. I am actively seeking job opportunities as a software developer, full-stack developer, data scientist, and data analyst. Additionally, I am authorized to work in Switzerland, EU, and MENA region.</p>
+                
                 </div>
+                
                 <div className="me" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                     <h1>About Me</h1>
                     <div className="me1">
                         
-                        <p>Welcome to my humble Portfolio Website. I am a current MSc Software Engineering student at the University of Westminster. My study mainly focuses on programming and big data. I completed BSc at Metropolitan State University of Denver. Where I completed applied Mathematics as my major and Economics as my minor. Welcome to my humble Portfolio Website. I am a current MSc Software Engineering student at the University of Westminster. My study mainly focuses on programming and big data. I completed BSc at Metropolitan State University of Denver. Where I completed applied Mathematics as my major and Economics as my minor. Welcome to my humble Portfolio Website. I am a current MSc Software Engineering student at the University of Westminster. My study mainly focuses on programming and big data. I completed BSc at Metropolitan State University of Denver. Where I completed applied Mathematics as my major and Economics as my minor.<br></br><br></br>Hobbies:</p>
+                        <p>As a Swiss and Iraqi national, I am a software developer who is passionate about programming and loves to explore new technologies and programming languages. I have experience in a variety of programming languages, including Java, JavaScript, C#, Python, C++, Bash, and Zsh. I enjoy building web applications and have expertise in HTML5, CSS3, Flask, React, and Django. In addition, I have experience with data management, visualization, and math tools, including SQL, R, Tableau, SQLAlchemy, and Matlab. During my time at the University of Westminster, I have been studying software engineering and have gained extensive knowledge in the field. I am excited to use this knowledge to develop software solutions that can solve real-world problems. I believe that good software should be user-friendly, reliable, and efficient. Aside from my technical skills, I am also a great team player and have experience working with Git and GitHub. I am confident that my technical expertise, coupled with my passion for programming and my ability to work well in a team, make me a valuable asset to any software development team.<br></br><br></br>Hobbies:</p>
                         <ul>
                             <li>Football</li>
                             <li>Reading</li>
