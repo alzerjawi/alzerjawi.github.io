@@ -1,15 +1,25 @@
 import React from "react";
+<<<<<<< HEAD
 import image from './hassan_spain.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from "react-router-dom";
 import resume from './resume.pdf';
+=======
+import 'bootstrap/dist/css/bootstrap.css';
+import { Link } from "react-router-dom";
+import { Side } from "./Side";
+>>>>>>> 908902e (Made changes)
 
 export const Home = () => {
     return (
         <div className="home">
             <div className='main'>
                 <div class='para intro'>
+<<<<<<< HEAD
                     <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">I'm Hassan, a MSc student at the University of Westminster with a BSc in Applied Mathematics from MSU Denver. I'm currently in the finals phase of my studies, based in Baghdad, Iraq.</h1>
+=======
+                    <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">I'm Hassan, a MSc graduate in Software Engineering from the University of Westminster, with a BSc in Applied Mathematics from MSU Denver. Currently based in Baghdad, Iraq, I am working as a Data Analyst.</h1>
+>>>>>>> 908902e (Made changes)
                     <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">I have a strong foundation in computer science and mathematics, including proficiency in software development, and data analysis. I am actively seeking job opportunities as a software developer, full-stack developer, data scientist, and data analyst. Additionally, I am authorized to work in Switzerland, EU, and MENA region.</p>
                 
                 </div>
@@ -28,7 +38,11 @@ export const Home = () => {
                     </div>
                 </div>
 
+<<<<<<< HEAD
                 <Link class="btn btn-dark btn-lg" to="/portfolio" role="button" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">Click for Portfolio</Link>
+=======
+                <Link id="button2" class="btn btn-dark btn-lg" to="/portfolio" role="button" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">Click for Portfolio</Link>
+>>>>>>> 908902e (Made changes)
 
                 <div className="skills" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100">
                     <h1>Skills</h1>
@@ -108,6 +122,7 @@ export const Home = () => {
 
                 
             </div>
+<<<<<<< HEAD
             <div className='side'>
                 <div className="component">
                     <img src={image} alt='Hassan in Spain'/>
@@ -118,6 +133,9 @@ export const Home = () => {
                 </div>
                 
             </div>
+=======
+            <Side />
+>>>>>>> 908902e (Made changes)
         </div>  
     );
 };

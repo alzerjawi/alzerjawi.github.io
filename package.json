@@ -8,12 +8,21 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+<<<<<<< HEAD
     "firebase": "^9.19.1",
+=======
+    "firebase": "^10.12.2",
+>>>>>>> 908902e (Made changes)
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.2.0",
+<<<<<<< HEAD
     "react-scripts": "^2.1.3",
+=======
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.9.0",
+>>>>>>> 908902e (Made changes)
     "web-vitals": "^2.1.4"
   },
   "scripts": {

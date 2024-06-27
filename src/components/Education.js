@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import image from './hassan_spain.jpg';
 import MSUImage from './MSU.png';
 import WestminsterImage from './westminster.png';
@@ -6,6 +7,15 @@ import UCDImage from './cu.png';
 import { Link } from "react-router-dom";
 import resume from './resume.pdf';
 
+=======
+import MSUImage from './MSU.png';
+import WestminsterImage from './westminster.png';
+import UCDImage from './cu.png';
+import {Side} from './Side';
+import { Link } from "react-scroll";
+
+//Ok
+>>>>>>> 908902e (Made changes)
 
 export const Education = () => {
     return (
@@ -13,6 +23,7 @@ export const Education = () => {
             <div className='main'>
                 <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Education</h1>
                 <div className="container1" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100">
+<<<<<<< HEAD
                     <div className="ex1">
                         <img className="logo" src={UCDImage} alt='UCD logo'/>
 
@@ -46,6 +57,31 @@ export const Education = () => {
                     </div>
                 </div>
                 <div className="container3">
+=======
+                    <Link className="ex1" to="Degree2" spy={true} smooth={true} offset={-100} duration={500}>
+                        <img className="logo" src={UCDImage} alt='UCD logo'/>
+                        <p>
+                            University of Colorado Denver<br></br>Jan 2015 - May 2019<br></br>Partial BSc in Mathematics
+                        </p>
+
+                    </Link>
+                    <Link className="ex2" to="Degree2" spy={true} smooth={true} offset={-100} duration={500}>
+                        <img className="logo pic1" src={MSUImage} alt='MSU logo'/>
+                        <p>
+                            Metropolitan State University Denver<br></br>Jul 2019 - Aug 2021<br></br>BSc in Applied Mathematics
+                        </p>
+
+                    </Link>
+                    <Link className="ex3" to="Degree1" spy={true} smooth={true} offset={-100} duration={500}>
+                        <img className="logo pic3" src={WestminsterImage} alt='MSU logo'/>
+                        <p>
+                            University of Westminster London<br></br>Sep 2021 - Sep 2023<br></br>MSc in Software Engineering
+                        </p>
+                    </Link>
+                </div>
+                
+                <div className="container2">
+>>>>>>> 908902e (Made changes)
                      <div className="Degree1">
                         <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Software Engineering Courses</h1>
                         <ul data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="100">
@@ -62,7 +98,11 @@ export const Education = () => {
                     </div>
                     
                 </div>
+<<<<<<< HEAD
                 <div className="container4">
+=======
+                <div className="container3">
+>>>>>>> 908902e (Made changes)
                     <div className="Degree2">
                         <h1 data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">Applied Mathematics Courses</h1>
                         <ul data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="100">
@@ -82,6 +122,7 @@ export const Education = () => {
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
             <div className='side'>
                 <div className="component">
                     <img src={image} alt='Hassan in Spain'/>
@@ -92,6 +133,9 @@ export const Education = () => {
                 </div>
                 
             </div>
+=======
+            <Side />
+>>>>>>> 908902e (Made changes)
         </div>  
     );
 };

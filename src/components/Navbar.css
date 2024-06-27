@@ -1,9 +1,17 @@
 .topnav {
+<<<<<<< HEAD
     background-color: #333;
+=======
+    background-color: #005792;
+>>>>>>> 908902e (Made changes)
     overflow: hidden;
     width: 100%;
     position: fixed;
     z-index: 9999;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 908902e (Made changes)
   }
   
   /* Style the links inside the navigation bar */
@@ -18,7 +26,11 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
+<<<<<<< HEAD
     background-color: #ddd;
+=======
+    background-color: white;
+>>>>>>> 908902e (Made changes)
     color: black;
   }
   

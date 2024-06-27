@@ -4,11 +4,18 @@
 }
 
 .background-image{
+<<<<<<< HEAD
     background-image: url('./backgroundimage.jpg');
+=======
+    background-image: url('./backgroundimage.png');
+>>>>>>> 908902e (Made changes)
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 908902e (Made changes)
 }
